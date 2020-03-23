@@ -12,5 +12,22 @@
     "_copy_without_render": [
         "cookiecutter.json",
         "{{cookiecutter.project_slug}}"
-    ]
+    ],
+    "file_types": {
+        "png": {
+            "name": "Portable Network Graphic",
+            "library": "libpng",
+            "apps": [
+                "GIMP"
+            ]
+        },
+        "bmp": {
+            "name": "Bitmap",
+            "library": "libbmp",
+            "apps": [
+                "Paint",
+                "GIMP"
+            ]
+        }
+    }
 }
